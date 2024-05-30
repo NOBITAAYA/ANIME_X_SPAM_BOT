@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"` 𝐈 𝐀𝐌 𝐁𝐀𝐂𝐊 𝐒𝐎𝐎𝐍 𝐁𝐀𝐁𝐘 𝐃𝐎𝐍𝐓 𝐋𝐄𝐀𝐕𝐄 𝐌𝐄 🥀🫧.`")
+        await e.reply(f"` 𝐈 𝐀𝐌 𝐁𝐀𝐂𝐊 𝐒𝐎𝐎𝐍  🥀🫧.`")
         try:
             await X1.disconnect()
         except Exception:
