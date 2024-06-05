@@ -24,7 +24,7 @@ async def ping(e):
         jarvis = await e.reply(f"𓆩ʙʀᴏᴋᴇɴ𓆪♕︎ʙɪᴛᴇ")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"𝐖𝐇𝐀𝐓 𝐈 𝐂𝐀𝐍 𝐃𝐎 𝐅𝐎𝐑 𝐘𝐎𝐔 𝐁𝐀𝐁𝐘 [𝐌𝐲 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𓆩ʙʀᴏᴋᴇɴ𓆪♕︎ʙɪᴛᴇ ]")
+        await jarvis.edit(f"𝐖𝐇𝐀𝐓 𝐈 𝐂𝐀𝐍 𝐃𝐎 𝐅𝐎𝐑 𝐘𝐎𝐔 𝐁𝐀𝐁𝐘 [𝐌𝐲 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 ⁣༒☠︎𓆩‎ᗪℯ𝓿ꪱ͛ł𓆪☠︎༒ 2.0 ]")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"` 𝐈 𝐀𝐌 𝐁𝐀𝐂𝐊 𝐒𝐎𝐎𝐍  🥀🫧.`")
+        await e.reply(f"` 𝐈 𝐀𝐌 𝐁𝐀𝐂𝐊 𝐒𝐎𝐎𝐍  .`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»[𓆩ʙʀᴏᴋᴇɴ𓆪♕︎ʙɪᴛᴇ] 𝐒𝐔𝐃𝐎 𝐃𝐄 𝐃𝐈𝐘𝐀 𝐇𝐄 𝐁𝐀𝐁𝐘  G𝐎 𝐀𝐍𝐃 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 s𝐄𝐍𝐄𝐌𝐘'𝐒 😂_")
+        ok = await event.reply(f"»[⁣༒☠︎𓆩‎ᗪℯ𝓿ꪱ͛ł𓆪☠︎༒ 2.0] 𝐒𝐔𝐃𝐎 𝐃𝐄 𝐃𝐈𝐘𝐀 𝐇𝐄 𝐁𝐀𝐁𝐘  G𝐎 𝐀𝐍𝐃 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 s𝐄𝐍𝐄𝐌𝐘'𝐒 😂_")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -185,4 +185,4 @@ async def show_sudo_users(event):
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 𓆩ʙʀᴏᴋᴇɴ𓆪♕︎ʙɪᴛᴇ 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 ⁣༒☠︎𓆩‎ᗪℯ𝓿ꪱ͛ł𓆪☠︎༒ 2.0 𝗢𝗪𝗡𝗘𝗥.")
