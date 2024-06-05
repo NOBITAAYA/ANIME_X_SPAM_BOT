@@ -26,7 +26,7 @@ async def echo(event):
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
 
-            if user_id in OXYGEN:
+            if user_id in ⁣༒☠︎𓆩‎ᗪℯ𝓿ꪱ͛ł𓆪☠︎༒:
                 await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ🙏.")
             elif user_id == OWNER_ID:
                 await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ😎.")
